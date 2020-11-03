@@ -9,6 +9,6 @@ services:
     build:
       context: .
       dockerfile: govcms-ci.Dockerfile
-    image: govcms-ci
+    image: deptcms-ci
     environment:
       << : *default-environment
